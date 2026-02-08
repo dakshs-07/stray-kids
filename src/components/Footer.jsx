@@ -10,8 +10,14 @@ function Footer() {
           <Link href="">About</Link>
           <Link href="">About</Link>
           <Link href="">About</Link>
+          <Link href="">About</Link>
+          <Link href="">About</Link>
         </div>
         <div className=" flex flex-col left-0">
+          <Link href="">About</Link>
+          <Link href="">About</Link>
+          <Link href="">About</Link>
+          <Link href="">About</Link>
           <Link href="">About</Link>
           <Link href="">About</Link>
           <Link href="">About</Link>
