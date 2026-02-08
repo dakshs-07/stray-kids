@@ -4,13 +4,13 @@ import React from "react";
 
 function Banner() {
   return (
-    <div>
+    <div className="bg-gray-200">
       <Image
         src="/main/logo.png"
         alt="stray kids logo"
-        width={130}
-        height={130}
-        className="ml-20"
+        width={140}
+        height={140}
+        className="ml-20 py- my-0"
       />
       <div className="flex justify-center items-center gap-x-8 text-lg w-full bg-red-400 tracking-wider">
         <Link href="">BangChan</Link>
