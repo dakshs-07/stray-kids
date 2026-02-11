@@ -1,4 +1,6 @@
+import BubbleUpdates from "@/components/Main/BubbleUpdates";
 import LatestAlbum from "@/components/Main/LatestAlbum";
+import LatestVideos from "@/components/Main/LatestVideos";
 import Members from "@/components/Main/Members";
 
 function page() {
@@ -13,6 +15,7 @@ function page() {
       </p>
       <Members />
       <LatestAlbum />
+      <LatestVideos />
     </div>
   );
 }
