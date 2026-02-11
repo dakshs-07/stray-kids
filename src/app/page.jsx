@@ -1,3 +1,4 @@
+import LatestAlbum from "@/components/Main/LatestAlbum";
 import Members from "@/components/Main/Members";
 
 function page() {
@@ -11,6 +12,7 @@ function page() {
         2019.{" "}
       </p>
       <Members />
+      <LatestAlbum />
     </div>
   );
 }

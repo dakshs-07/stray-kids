@@ -21,6 +21,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Stray Kids Fandom",
   description: "Stray kids everywhere around the world!",
+  icons: {
+    icon: "/skz-logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {

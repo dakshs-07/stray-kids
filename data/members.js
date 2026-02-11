@@ -7,6 +7,7 @@ const memberData = [
     age: "29",
     racha: "3Racha",
     img: "/members/bangchan.jpg",
+    link: "/bangchan",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const memberData = [
     age: "28",
     racha: "DanceRacha",
     img: "/members/leeknow.jpg",
+    link: "/leeknow",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const memberData = [
     age: "29",
     racha: "3Racha",
     img: "/members/changbin.jpg",
+    link: "/changbin",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ const memberData = [
     age: "26",
     racha: "DanceRacha",
     img: "/members/hyunjin.jpg",
+    link: "/hyunjin",
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ const memberData = [
     age: "26",
     racha: "DanceRacha",
     img: "/members/felix.jpg",
+    link: "/felix",
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ const memberData = [
     age: "26",
     racha: "3Racha",
     img: "/members/han-new.jpg",
+    link: "/han",
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ const memberData = [
     age: "26",
     racha: "VocalRacha",
     img: "/members/seungmin.jpg",
+    link: "/seungmin",
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ const memberData = [
     age: "26",
     racha: "VocalRacha",
     img: "/members/in.jpg",
+    link: "/in",
   },
 ];
 
