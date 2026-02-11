@@ -13,16 +13,19 @@ function Recommended() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6">
           <RecommendedCards
+            link="/"
             img="/main/suggested/suggested1.jpg"
             title="Lee Know's cats"
             description="I am Lee Know you know"
           />
           <RecommendedCards
+            link="/"
             img="/main/suggested/suggested2.webp"
             title="Lee Know's cats"
             description="I am Lee Know you know"
           />
           <RecommendedCards
+            link="/"
             img="/main/suggested/suggested3.jpg"
             title="Lee Know's cats"
             description="I am Lee Know you know"
