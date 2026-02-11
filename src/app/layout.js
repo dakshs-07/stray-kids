@@ -6,6 +6,7 @@ import Banner from "@/components/Banner";
 import Hero from "@/components/Hero";
 import RightBar from "@/components/RightBar";
 import Footer from "@/components/Footer";
+import Recommended from "@/components/Recommended";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
           <main className="flex-1 px-20"> {children}</main>
           <RightBar />
         </div>
+        <Recommended />
         <Footer />
       </body>
     </html>

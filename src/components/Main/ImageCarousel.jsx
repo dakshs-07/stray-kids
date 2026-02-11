@@ -17,7 +17,7 @@ const banners = [
 export function ImageCarousel() {
   return (
     <Carousel
-      className="w-screen"
+      className="w-full"
       opts={{
         align: "start",
         loop: true,
@@ -25,7 +25,7 @@ export function ImageCarousel() {
     >
       <CarouselContent>
         {banners.map((src, index) => (
-          <CarouselItem key={index} className="w-screen">
+          <CarouselItem key={index} className="w-full">
             <div className="relative h-[60vh] w-full">
               <Image
                 src={src}
