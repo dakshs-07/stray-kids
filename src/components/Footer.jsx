@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
       <div className="flex justify-between bg-black text-white mt-10">
-        <div className=" flex items-end justify-around w-100 h-40 gap-x-10">
+        <div className=" flex items-end justify-around w-full h-40 gap-x-10 sm:h-20 md:h-30 lg:h-40">
           <div className=" flex flex-col left-0">
             <Link href="">About</Link>
             <Link href="">About</Link>

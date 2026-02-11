@@ -10,9 +10,9 @@ function Banner() {
         alt="stray kids logo"
         width={140}
         height={140}
-        className="ml-20 py- my-0"
+        className="ml-20 my-0"
       />
-      <div className="flex justify-center items-center gap-x-8 text-lg w-full bg-red-400 tracking-wider">
+      <div className="flex justify-center items-center gap-x-8 py-1 text-lg w-full bg-red-400 tracking-wider sm:text-sm md:text-lg md:gap-x-3">
         <Link href="">BangChan</Link>
         <Link href="">Lee Know</Link>
         <Link href="">Changbin</Link>

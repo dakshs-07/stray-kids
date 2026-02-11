@@ -34,7 +34,9 @@ export default function RootLayout({ children }) {
         <Hero />
         <div className="flex">
           <LeftBar />
-          <main className="flex-1 px-20"> {children}</main>
+          <main className="flex-1 px-4 sm:px-6 md:px-10 lg:px-20">
+            {children}
+          </main>
           <RightBar />
         </div>
         <Recommended />
