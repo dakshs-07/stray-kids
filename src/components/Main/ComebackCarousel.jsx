@@ -1,5 +1,11 @@
 import React from "react";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../ui/carousel";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "../ui/carousel";
 
 function ComebackCarousel() {
   return (
@@ -13,32 +19,45 @@ function ComebackCarousel() {
       >
         <CarouselContent>
           <CarouselItem className="w-full flex justify-center">
-            {" "}
-            <iframe
-              className="my-5 items-center"
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/NED7nev2ywQ?si=RYj5duUJ8Q4_h-XU"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            <div className="w-full max-w-2xl aspect-video my-5">
+              <iframe
+                className="w-full h-full rounded-lg"
+                src="https://open.spotify.com/embed/track/56Fu41EhpsPqqfDZsj3eaN?utm_source=generator&theme=0"
+                title="YouTube video player"
+                allowFullScreen
+              />
+            </div>
           </CarouselItem>
           <CarouselItem className="w-full flex justify-center">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/mf967jPZrCk?si=PhqDZI7FQPtPJeeg"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            <div className="w-full max-w-2xl aspect-video my-5">
+              <iframe
+                className="w-full h-full rounded-lg"
+                src="https://www.youtube.com/embed/NED7nev2ywQ"
+                title="YouTube video player"
+                allowFullScreen
+              />
+            </div>
           </CarouselItem>
-          <CarouselItem className="w-full flex justify-center"></CarouselItem>
+          <CarouselItem className="w-full flex justify-center">
+            <div className="w-full max-w-2xl aspect-video my-5">
+              <iframe
+                className="w-full h-full rounded-lg"
+                src="https://www.youtube.com/embed/E8i32NXMxnc?si=w7rVqT0uz9ZsyOGb"
+                title="YouTube video player"
+                allowFullScreen
+              />
+            </div>
+          </CarouselItem>
+          <CarouselItem className="w-full flex justify-center">
+            <div className="w-full max-w-2xl aspect-video my-5">
+              <iframe
+                className="w-full h-full rounded-lg"
+                src="https://www.youtube.com/embed/mf967jPZrCk?si=PhqDZI7FQPtPJeeg"
+                title="YouTube video player"
+                allowFullScreen
+              />
+            </div>
+          </CarouselItem>
         </CarouselContent>
 
         <CarouselPrevious className="left-4" />
