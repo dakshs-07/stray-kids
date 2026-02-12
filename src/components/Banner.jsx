@@ -5,22 +5,24 @@ import React from "react";
 function Banner() {
   return (
     <div className="bg-gray-200">
-      <Image
-        src="/main/logo.png"
-        alt="stray kids logo"
-        width={140}
-        height={140}
-        className="ml-20 my-0"
-      />
+      <Link href="/">
+        <Image
+          src="/main/logo.png"
+          alt="stray kids logo"
+          width={140}
+          height={140}
+          className="ml-20 my-0"
+        />
+      </Link>
       <div className="flex justify-center items-center gap-x-8 py-1 text-lg w-full bg-red-400 tracking-wider sm:text-sm md:text-lg md:gap-x-3">
-        <Link href="">BangChan</Link>
-        <Link href="">Lee Know</Link>
-        <Link href="">Changbin</Link>
-        <Link href="">Hyunjin</Link>
-        <Link href="">Han</Link>
-        <Link href="">Felix</Link>
-        <Link href="">Seungmin</Link>
-        <Link href="">I.N</Link>
+        <Link href="/bangchan">BangChan</Link>
+        <Link href="/leeknow">Lee Know</Link>
+        <Link href="/changbin">Changbin</Link>
+        <Link href="/hyunjin">Hyunjin</Link>
+        <Link href="/han">Han</Link>
+        <Link href="/felix">Felix</Link>
+        <Link href="/seungmin">Seungmin</Link>
+        <Link href="/in">I.N</Link>
       </div>
     </div>
   );
