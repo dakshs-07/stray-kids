@@ -13,7 +13,7 @@ export default function LatestVideos() {
   }, []);
 
   return (
-    <div className="my-10 py-2 w-screen">
+    <div className="my-10 py-2">
       <h1 className="text-center text-4xl my-2 tracking-wide">
         Latest Youtube Content
       </h1>

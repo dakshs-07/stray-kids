@@ -18,11 +18,10 @@ function Footer() {
           </div>
         </div>
         {/* <Image
-          src="/main/footer.png"
+          src="/main/logo.png"
           alt="stray-kids-footer image"
-          height={600}
-          width={600}
-          className="absolute bottom-0 right-0"
+          height={200}
+          width={200}
         /> */}
       </div>
       <p className="font-extralight text-center tracking-wider py-2">CC 2026 Stray Kids Fandom</p>
