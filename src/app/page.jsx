@@ -1,23 +1,26 @@
-import BubbleUpdates from "@/components/Main/BubbleUpdates";
 import LatestAlbum from "@/components/Main/LatestAlbum";
 import LatestVideos from "@/components/Main/LatestVideos";
 import Members from "@/components/Main/Members";
+import MemberSpotlight from "@/components/Main/MemberSpotlight";
 
 function page() {
   return (
-    <div className="py-2">
-      <p className="text-center">
-        Stray Kids (스트레이 키즈) is a South Korean group of 8 members under
-        JYP Entertainment. Members include Bang Chan, Lee Know, Changbin,
-        Hyunjin, Felix, Han, Seungmin and I.N. They originally debuted in 2018
-        as a 9-member group, with Woojin later leaving the group after a year in
-        2019.{" "}
-      </p>
-      <Members />
-      <LatestAlbum />
-      <LatestVideos />
-    </div>
+    <>
+      <div className="py-2">
+        <p className="text-center">
+          Stray Kids (스트레이 키즈) is a South Korean group of 8 members under
+          JYP Entertainment. Members include Bang Chan, Lee Know, Changbin,
+          Hyunjin, Felix, Han, Seungmin and I.N. They originally debuted in 2018
+          as a 9-member group, with Woojin later leaving the group after a year
+          in 2019.{" "}
+        </p>
+        <Members />
+        <LatestAlbum />
+        <LatestVideos />
+        <MemberSpotlight />
+      </div>
+    </>
   );
 }
 
-export default page
+export default page;

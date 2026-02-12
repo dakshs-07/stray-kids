@@ -6,15 +6,12 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { HeroTitles } from "../../../data/members";
 
-const banners = [
-  "/main/banner.webp",
-  "/main/banner2.webp",
-  "/main/banner3.webp",
-  "/main/banner4.webp",
-];
+export function ImageCarousel({page}) {
+  const hero = HeroTitles.find((item)=>item.page===page);
+  if (!hero) return null;
 
-export function ImageCarousel() {
   return (
     <Carousel
       className="w-full"
@@ -24,12 +21,12 @@ export function ImageCarousel() {
       }}
     >
       <CarouselContent>
-        {banners.map((src, index) => (
+        {hero.imagelist.map((image, index) => (
           <CarouselItem key={index} className="w-full">
             <div className="relative h-[60vh] w-full">
               <Image
-                src={src}
-                alt={`Stray Kids banner ${index + 1}`}
+                src={image}
+                alt={`${hero.name} banner`}
                 fill
                 priority={index === 0}
                 className="object-cover"

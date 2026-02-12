@@ -82,3 +82,33 @@ const memberData = [
 ];
 
 export default memberData;
+
+// Banners and Heading names for all pages ============================================
+
+const Banners = [
+  "/main/banner.webp",
+  "/main/banner2.webp",
+  "/main/banner3.webp",
+  "/main/banner4.webp",
+];
+const LeeKnowBanners = [
+  "/banners/leeknow/leeknow1.jpg",
+  "/banners/leeknow/leeknow2.jpg",
+];
+
+export const HeroTitles = [
+  {
+    id: 1,
+    name: "Stray Kids Fandom",
+    page: "",
+    korean: "스트레이 키즈",
+    imagelist: Banners,
+  },
+  {
+    id: 2,
+    name: "Lee Know",
+    page:"leeknow",
+    korean: "스트레이 키즈",
+    imagelist: LeeKnowBanners,
+  },
+];

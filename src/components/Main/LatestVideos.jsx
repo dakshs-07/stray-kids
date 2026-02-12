@@ -13,7 +13,7 @@ export default function LatestVideos() {
   }, []);
 
   return (
-    <div className="my-10 py-2">
+    <div className="my-10 py-2 w-screen">
       <h1 className="text-center text-4xl my-2 tracking-wide">
         Latest Youtube Content
       </h1>
@@ -26,7 +26,7 @@ export default function LatestVideos() {
         </a>{" "}
         YouTube Channel
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grids-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {videos.map((video) => (
           <a
             key={video.id.videoId}
@@ -37,9 +37,9 @@ export default function LatestVideos() {
             <img
               src={video.snippet.thumbnails.high.url}
               alt={video.snippet.title}
-              className="rounded-xl"
+              className="rounded-xl sm:w-50 md:w-100"
             />
-            <h3 className="mt-2 text-sm font-semibold group-hover:text-gray-500">
+            <h3 className="mt-2 text-sm font-semibold group-hover:text-gray-500 sm:max-w-50 md:max-w-50">
               {video.snippet.title}
             </h3>
           </a>
