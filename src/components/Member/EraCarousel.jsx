@@ -11,7 +11,7 @@ export default function EraCarousel({ slides, memberName }) {
   ]);
 
   return (
-    <>
+    <div className="my-5">
       <h1 className="text-3xl font-extralight text-center py-5">{memberName} Across Eras</h1>
       <div
         className="overflow-hidden "
@@ -45,6 +45,6 @@ export default function EraCarousel({ slides, memberName }) {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
