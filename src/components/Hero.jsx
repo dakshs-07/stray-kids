@@ -18,7 +18,7 @@ function Hero() {
           {heroName?.name}
         </h1>
         <h1 className="absolute text-9xl text-muted-foreground opacity-10 z-0 sm:text-5xl md:text-7xl">
-          {heroName.korean}
+          {heroName?.korean}
         </h1>
       </div>
     </div>
