@@ -47,6 +47,7 @@ export const FelixFacts = [
     "Felix loves brownies. He is good at baking, too.",
     "He is a brand ambassador for multiple luxury and fashion brands.",
     "He is known for rocking unisex looks and style.",
+    "He can make mosquito noises which is pretty impressive."
 ]
 
 export const HanFacts = [
@@ -70,5 +71,9 @@ export const SeungminFacts = [
 ]
 
 export const InFacts = [
-    "He is the maknae of the group.",
-]
+  "He is the maknae of the group.",
+  "He can make sounds of a fox crying.",
+  "I.N is a brand ambassador Bottega Veneta.",
+  "He wanted to be a priest when he was a child.",
+  "He loves watching ASMR and mukbang."
+];

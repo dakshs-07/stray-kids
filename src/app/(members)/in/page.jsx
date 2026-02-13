@@ -1,15 +1,15 @@
 import MemberTable from "@/components/Member/MemberTable";
 import React from "react";
-import { BangchanData } from "../../../../data/Table";
+import { InData } from "../../../../data/Table";
 import FunFacts from "@/components/Member/FunFacts";
-import { BangchanFacts } from "../../../../data/FunFacts";
+import { InFacts } from "../../../../data/FunFacts";
 function page() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12">
       <div className="flex justify-around items-start">
-        <MemberTable data={BangchanData} />
+        <MemberTable data={InData} />
       </div>
-      <FunFacts factData={BangchanFacts} />
+      <FunFacts factData={InFacts} />
     </div>
   );
 }

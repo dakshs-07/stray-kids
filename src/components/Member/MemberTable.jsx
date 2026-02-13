@@ -6,7 +6,7 @@ function MemberTable({data}) {
     <div className="overflow-x-auto flex flex-col justify-center items-center">
       <table className="w-full border-collapse border border-gray-300 ">
         <tbody>
-          {data.map((row, index) => (
+          {data?.map((row, index) => (
             <tr key={index} className="border-b border-gray-200">
               <td className="font-semibold p-3 bg-gray-100 w-1/3 tracking-wide">
                 {row.label}
