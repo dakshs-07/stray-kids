@@ -26,7 +26,7 @@ export function ImageCarousel({page}) {
             <div className="relative h-[60vh] w-full">
               <Image
                 src={image}
-                alt={`${hero.name} banner`}
+                alt={`${hero?.name} banner`}
                 fill
                 priority={index === 0}
                 className="object-cover"

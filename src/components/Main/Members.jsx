@@ -15,7 +15,7 @@ function Members() {
               <div className="w-25 h-25 rounded-full overflow-hidden border border-gray-200 shadow-sm transition-transform duration-300 group-hover:scale-105">
                 <Image
                   src={item.img}
-                  alt={item.name}
+                  alt={item?.name}
                   width={100}
                   height={100}
                   className="object-cover hover:opacity-90"
