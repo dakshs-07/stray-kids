@@ -3,6 +3,8 @@ import React from "react";
 import { LeeKnowData } from "../../../../data/Table";
 import FunFacts from "@/components/Member/FunFacts";
 import { LeeknowFacts } from "../../../../data/FunFacts";
+import EraCarousel from "@/components/ui/EraCarousel";
+import { LeeknowEras } from "../../../../data/erasData";
 function page() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12">
@@ -17,6 +19,7 @@ function page() {
         <MemberTable data={LeeKnowData} />
       </div>
       <FunFacts factData={LeeknowFacts}/>
+      <EraCarousel slides={LeeknowEras} />
     </div>
   );
 }
