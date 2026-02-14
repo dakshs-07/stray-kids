@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function EraCarousel({ slides, memberName }) {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [
-    Autoplay({ delay: 3000, stopOnInteraction: false }),
+    Autoplay({ delay: 2000, stopOnInteraction: false }),
   ]);
 
   return (
@@ -15,14 +15,7 @@ export default function EraCarousel({ slides, memberName }) {
       <h1 className="text-3xl font-extralight text-center py-5">{memberName} Across Eras</h1>
       <div
         className="overflow-hidden "
-        ref={emblaRef}
-        // style={{
-        //   maskImage:
-        //     "linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)",
-        //   WebkitMaskImage:
-        //     "linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%)",
-        // }}
-      >
+        ref={emblaRef}      >
         <div className="flex">
           {slides.map((img, index) => (
             <div className="flex-[0_0_40%] flex justify-center" key={index}>
