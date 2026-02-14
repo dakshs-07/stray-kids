@@ -8,7 +8,7 @@
 export default function NavTable() {
   return (
     <nav>
-      <ul>
+      <ul className="gap-y-2 text-xl tracking-wide">
         {sections.map((section) => (
           <li key={section.id}>
             <a href={`#${section.id}`}>{section.label}</a>
