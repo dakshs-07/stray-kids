@@ -5,12 +5,18 @@ export const BangchanFacts = [
     "Stays prefer Chan's room over therapy",
     "Bangchan is the eldest of all SKZ members too.",
     "He has a dog, Berry",
+    "He trained for 7 years before debuting.",
+    "He is a brand ambassador for Fendi."
 ]
 
 
 
 export const LeeknowFacts = [
     "His name means 'vast sky'",
+    "He can write with both hands.",
+    "Lee Know is scared of heights.",
+    "He was a trainee for just a few months unlike other members who traied for years before debuting.",
+    "He loves watching anime.",
     "He is known as butt-hunter of the group.",
     "Lee Know has three cats - Soonie, Doongie and Dori. His cats are very important to him and not knowing how many cats he has upsets him.",
     "Lee Know loves pudding",
@@ -30,6 +36,7 @@ export const ChangbinFacts = [
     "He is known for his muscles",
     "He loves chicken.",
     "Changbin, Han and BangChan form the renowned 3Racha",
+    "He has a favorite plushie - Gyu",
 ]
 
 export const HyunjinFacts = [
@@ -38,17 +45,18 @@ export const HyunjinFacts = [
     "Hyunjin loves painting and has made several stellar pieces.",
     "Hyunjin's favorite place to visit is museums.",
     "Hyunjin is known for being the idol who asbolutely rocked the buzzcut.",
-    "",
+    "He was insecure about the mole under his eyes.",
+    "He is an ambassador for Versace.",
 ]
 
 export const FelixFacts = [
-    "Felix is kwnown for his deep voice.",
-    "Felix is a midde child - he has 2 sisters, Olivia and Racheal.",
-    "Felix loves brownies. He is good at baking, too.",
-    "He is a brand ambassador for multiple luxury and fashion brands.",
-    "He is known for rocking unisex looks and style.",
-    "He can make mosquito noises which is pretty impressive."
-]
+  "Felix is kwnown for his deep voice.",
+  "Felix is a midde child - he has 2 sisters, Olivia and Racheal.",
+  "Felix loves brownies. He is good at baking, too.",
+  "He is a brand ambassador for multiple luxury and fashion brands, including Louis Vuitton, Gentle Monster, UNICEF, and Samsung.",
+  "He is known for rocking unisex looks and style.",
+  "He can make mosquito noises which is pretty impressive.",
+];
 
 export const HanFacts = [
     "He is known as the babygirl of the group.",
@@ -57,7 +65,8 @@ export const HanFacts = [
     "Han and Lee Know live together. He eats everything Lee Know cooks. Togther they like going to cafes and calm places.",
     "Pre-debut Han would cross with people, Hyunjin in particular. Now they get along really well.",
     "Han is known for his tiny waist (70 cm).",
-    "Han's small mouth makes him look like a cute little squirrel when he eats."
+    "Han's small mouth makes him look like a cute little squirrel when he eats.",
+    "He lived and studied in Malaysia for a large part of his life before auditioning for JYP.",
 ]
 
 export const SeungminFacts = [
@@ -67,7 +76,8 @@ export const SeungminFacts = [
     "His 'Hmmm...  ascending I take off touch the sun' can make people levitate.",
     "He loves coffee machines.",
     "He enjoys photography and is really good at it.",
-    "He is known for his boba eyes."
+    "He is known for his boba eyes.",
+    "He is a brand ambassador for Burberry.",
 ]
 
 export const InFacts = [
@@ -75,5 +85,7 @@ export const InFacts = [
   "He can make sounds of a fox crying.",
   "I.N is a brand ambassador Bottega Veneta.",
   "He wanted to be a priest when he was a child.",
-  "He loves watching ASMR and mukbang."
+  "He loves watching ASMR and mukbang.",
+  "He has two siblings - a younger and an older brother.",
+  "He went to the same school with Hyunjin."
 ];
