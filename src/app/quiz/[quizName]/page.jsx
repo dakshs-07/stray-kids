@@ -1,10 +1,12 @@
-import React from "react";
-import { Quizzes } from "../../../../data/quizData";
 import { notFound } from "next/navigation";
+import { Quizzes } from "../../../../data/quizData";
 
-function QuizPage() {
+export default function QuizPage({ params }) {
   const quiz = Quizzes.find((q) => q.slug === params.quizName);
   if (!quiz) return notFound();
+  console.log("params:", params);
+  console.log("quizName:", params.quizName);
+  console.log("quizzes:", Quizzes);
 
   return (
     <div>
@@ -13,5 +15,3 @@ function QuizPage() {
     </div>
   );
 }
-
-export default QuizPage;
