@@ -1,11 +1,17 @@
 import Link from 'next/link'
-import React from 'react'
+import { Quizzes } from '../../../data/quizData'
 
 function QuizHome() {
   return (
 <div>
     <h1>Quiz Trivia Zone</h1>
-    
+{    Quizzes.map((quiz, slug)=>(
+      <div key="slug">
+        <h1>{quiz.title}</h1>
+        <p>{quiz.description}</p>
+      </div>
+    ))
+}    
 </div>  )
 }
 
