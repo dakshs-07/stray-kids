@@ -1,12 +1,11 @@
-import MemberTable from "@/components/Member/MemberTable";
+import MemberTable from "../../../components/Member/MemberTable"
 import React from "react";
 import { LeeKnowData } from "../../../../data/Table";
-import FunFacts from "@/components/Member/FunFacts";
+import FunFacts from "../../../components/Member/FunFacts";
 import { LeeknowFacts } from "../../../../data/FunFacts";
-import EraCarousel from "@/components/Member/EraCarousel";
+import EraCarousel from "../../../components/Member/EraCarousel"
 import { LeeknowEras } from "../../../../data/erasData";
-import NavTable from "@/components/Member/NavTable";
-import MediaAppearanes from "@/components/Member/MediaAppearances";
+import MediaAppearances from "../../../components/Member/MediaAppearances"
 function page() {
   return (
     <div className="max-w-4xl mx-auto px-6 my-5">
@@ -29,7 +28,7 @@ function page() {
         <FunFacts factData={LeeknowFacts} className="funfacts" />
       </section>
       <section>
-        <MediaAppearanes />
+        <MediaAppearances />
       </section>
     </div>
   );

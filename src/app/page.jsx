@@ -1,7 +1,7 @@
-import LatestAlbum from "@/components/Main/LatestAlbum";
-import LatestVideos from "@/components/Main/LatestVideos";
-import Members from "@/components/Main/Members";
-import MemberSpotlight from "@/components/Main/MemberSpotlight";
+import LatestAlbum from "../components/Main/LatestAlbum";
+import LatestVideos from "../components/Main/LatestVideos";
+import Members from "../components/Main/Members";
+import MemberSpotlight from "../components/Main/MemberSpotlight";
 
 function page() {
   return (

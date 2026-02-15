@@ -1,15 +1,28 @@
-import MemberTable from "@/components/Member/MemberTable";
+import MemberTable from "../../../components/Member/MemberTable";
 import React from "react";
 import { ChangbinData } from "../../../../data/Table";
-import FunFacts from "@/components/Member/FunFacts";
+import FunFacts from "../../../components/Member/FunFacts";
 import { ChangbinFacts } from "../../../../data/FunFacts";
+import EraCarousel from "../../../components/Member/EraCarousel";
+// import { ChangbinEras } from "../../../../data/erasData";
+import MediaAppearances from "../../../components/Member/MediaAppearances";
 function page() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-12">
+    <div className="max-w-4xl mx-auto px-6 my-5">
+      <section id="eras">
+        {/* <EraCarousel slides={ChangbinEras} memberName="Lee Know" /> */}
+      </section>
       <div className="flex justify-around items-start">
-        <MemberTable data={ChangbinData} />
+        <section id="profile">
+          <MemberTable data={ChangbinData} className="profile" />
+        </section>
       </div>
-      <FunFacts factData={ChangbinFacts} />
+      <section id="funfacts">
+        <FunFacts factData={ChangbinFacts} className="funfacts" />
+      </section>
+      <section>
+        <MediaAppearances />
+      </section>
     </div>
   );
 }

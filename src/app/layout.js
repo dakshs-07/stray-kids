@@ -1,12 +1,12 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import LeftBar from "@/components/LeftBar";
-import TopNav from "@/components/TopNav";
-import Banner from "@/components/Banner";
-import Hero from "@/components/Hero";
-import RightBar from "@/components/RightBar";
-import Footer from "@/components/Footer";
-import Recommended from "@/components/Recommended";
+import LeftBar from "../components/LeftBar";
+import TopNav from "../components/TopNav";
+import Banner from "../components/Banner";
+import Hero from "../components/Hero";
+import RightBar from "../components/RightBar";
+import Footer from "../components/Footer";
+import Recommended from "../components/Recommended";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

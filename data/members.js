@@ -8,6 +8,10 @@ const memberData = [
     racha: "3Racha",
     img: "/members/bangchan.jpg",
     link: "/bangchan",
+    brands: [
+      "/brands/bangchan/",
+      "/brands/bangchan"
+    ],
   },
   {
     id: 2,
