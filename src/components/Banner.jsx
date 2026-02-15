@@ -15,14 +15,14 @@ function Banner() {
         />
       </Link>
       <div className="flex justify-center items-center gap-x-8 py-1 text-lg w-full bg-red-400 tracking-wider sm:text-sm md:text-lg md:gap-x-3">
-        <Link href="/bangchan">BangChan</Link>
-        <Link href="/leeknow">Lee Know</Link>
-        <Link href="/changbin">Changbin</Link>
-        <Link href="/hyunjin">Hyunjin</Link>
-        <Link href="/han">Han</Link>
-        <Link href="/felix">Felix</Link>
-        <Link href="/seungmin">Seungmin</Link>
-        <Link href="/in">I.N</Link>
+        <Link href="/bangchan" scroll={false}>BangChan</Link>
+        <Link href="/leeknow" scroll={false}>Lee Know</Link>
+        <Link href="/changbin" scroll={false}>Changbin</Link>
+        <Link href="/hyunjin" scroll={false}>Hyunjin</Link>
+        <Link href="/han" scroll={false}>Han</Link>
+        <Link href="/felix" scroll={false}>Felix</Link>
+        <Link href="/seungmin" scroll={false}>Seungmin</Link>
+        <Link href="/in" scroll={false}>I.N</Link>
       </div>
     </div>
   );

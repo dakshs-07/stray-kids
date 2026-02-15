@@ -11,7 +11,7 @@ function Members() {
       <div className="flex gap-x-10 justify-center items-center">
         {memberData.map((item) => (
           <div key={item.id} className="text-center">
-            <Link href={item.link}>
+            <Link href={item.link} className="scroll={true}">
               <div className="w-25 h-25 rounded-full overflow-hidden border border-gray-200 shadow-sm transition-transform duration-300 group-hover:scale-105">
                 <Image
                   src={item.img}

@@ -6,13 +6,14 @@ import { LeeknowFacts } from "../../../../data/FunFacts";
 import EraCarousel from "@/components/Member/EraCarousel";
 import { LeeknowEras } from "../../../../data/erasData";
 import NavTable from "@/components/Member/NavTable";
+import MediaAppearanes from "@/components/Member/MediaAppearances";
 function page() {
   return (
     <div className="max-w-4xl mx-auto px-6 my-5">
-      <EraCarousel slides={LeeknowEras} memberName="Lee Know" className="eras"/>
-
+      <section id="eras">
+        <EraCarousel slides={LeeknowEras} memberName="Lee Know" />
+      </section>
       <div className="flex justify-around items-start">
-        <NavTable />
         {/* <Image
             src="/memberPages/LeeKnow/leeknow-main.webp"
             alt=""
@@ -20,9 +21,16 @@ function page() {
             height={200}
             className="object-cover"
           /> */}
-        <MemberTable data={LeeKnowData} className="profile" />
+        <section id="profile">
+          <MemberTable data={LeeKnowData} className="profile" />
+        </section>
       </div>
-      <FunFacts factData={LeeknowFacts} className="funfacts" />
+      <section id="funfacts">
+        <FunFacts factData={LeeknowFacts} className="funfacts" />
+      </section>
+      <section>
+        <MediaAppearanes />
+      </section>
     </div>
   );
 }
