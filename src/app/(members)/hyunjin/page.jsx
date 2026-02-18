@@ -1,7 +1,7 @@
-import MemberTable from "@/components/Member/MemberTable";
+import MemberTable from "../../../components/Member/MemberTable";
 import React from "react";
 import { HyunjinData } from "../../../../data/Table";
-import FunFacts from "@/components/Member/FunFacts";
+import FunFacts from "../../../components/Member/FunFacts";
 import { HyunjinFacts } from "../../../../data/FunFacts";
 function page() {
   return (

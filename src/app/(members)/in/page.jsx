@@ -1,7 +1,7 @@
-import MemberTable from "@/components/Member/MemberTable";
+import MemberTable from "../../../components/Member/MemberTable";
 import React from "react";
 import { InData } from "../../../../data/Table";
-import FunFacts from "@/components/Member/FunFacts";
+import FunFacts from "../../../components/Member/FunFacts";
 import { InFacts } from "../../../../data/FunFacts";
 function page() {
   return (
