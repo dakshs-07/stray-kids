@@ -1,10 +1,17 @@
 import { notFound } from "next/navigation";
-import { Quizzes } from "../../../../data/quizData";
 import QuizClient from "./QuizClient";
+import clientPromise from "../../../lib/mongodb";
 
 export default async function QuizPage({ params }) {
-  const useParams = await params;
-  const quiz = Quizzes.find((q) => q.slug === useParams.quizName);
+  const { quizName } = await params;
+
+  const client = await clientPromise;
+  const db = client.db("quizApp");
+
+  const quiz = await db.collection("quizzes").findOne({ slug: quizName });
+
   if (!quiz) return notFound();
-  return <QuizClient quiz ={quiz} />
+  quiz._id = quiz._id.toString();
+
+  return <QuizClient quiz={quiz} />;
 }

@@ -5,15 +5,9 @@ import Image from "next/image";
 export default function QuizClient({ quiz }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
-
+  const [answers, setAnswers] = useState([]);
   const currentQuestion = quiz.questions[currentIndex];
 
-  function handleNext() {
-    if (currentIndex < quiz.questions.length - 1) {
-      setCurrentIndex(currentIndex + 1);
-      setSelectedOption(null);
-    }
-  }
   function handleBack() {
     if (currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
@@ -21,6 +15,9 @@ export default function QuizClient({ quiz }) {
     }
   }
 
+  const score = answers.reduce((total, answer, i) => {
+    return answer === quiz.questions[i].answer ? total + 1 : total;
+  }, 0);
   return (
     <div className="border border-gray-200 min-h-screen py-8 px-4">
       <Image
@@ -28,7 +25,7 @@ export default function QuizClient({ quiz }) {
         alt={quiz.title}
         width={500}
         height={500}
-        className="mb-2 mx-auto"
+        className="mb-2 max-w-2xl mx-auto"
       />
       <h1 className="text-xl text-center">{quiz.title}</h1>
       <p className="text-center text-muted-foreground">{quiz.description}</p>
@@ -43,7 +40,15 @@ export default function QuizClient({ quiz }) {
           {currentQuestion.options.map((option, index) => (
             <button
               key={index}
-              onClick={() => setSelectedOption(index)}
+              onClick={() => {
+                const updated = [...answers];
+                updated[currentIndex] = index;
+                setAnswers(updated);
+
+                if (currentIndex < quiz.questions.length - 1) {
+                  setCurrentIndex(currentIndex + 1);
+                }
+              }}
               className={`block w-full py-3 px-4 border border-gray-400 text-gray-700 text-left transition hover:bg-yellow-100/40 ${
                 selectedOption === index
                   ? "text-black"

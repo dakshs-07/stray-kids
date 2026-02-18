@@ -22,6 +22,11 @@ export const Quizzes = [
         options: ["Leader", "DAncer", "Vocalist", "All of these"],
         answer: 3,
       },
+      {
+        question: "How many cats does Lee Know have?",
+        options: ["One, Two, Three, None"],
+        answer: 3,
+      },
     ],
   },
   {
@@ -29,7 +34,7 @@ export const Quizzes = [
     title: "Do you know SKZ's birthdates?",
     description: "How many members can you terll the birthday of?",
     image: "/quiz/lee-know-cats.jpeg",
-    questions: [],
+    questions: [{}],
   },
   {
     slug: "han-jisung",
