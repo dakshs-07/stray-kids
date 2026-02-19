@@ -17,16 +17,19 @@ export default async function QuizHome() {
       <h1 className="text-3xl tracking-wide text-center pb-10">
         Quiz Trivia Zone
       </h1>
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="gap-4 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {quizzes.map((quiz) => (
           <div key={quiz.slug}>
             <Link href={`/quiz/${quiz.slug}`}>
-              <Image
-                src={quiz.image}
-                alt={quiz.title}
-                width={250}
-                height={250}
-              />
+              <div className="relative aspect-video w-full">
+                <Image
+                  src={quiz.image}
+                  alt={quiz.title}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 25vw"
+                />
+              </div>
               <h1 className="text-xl">{quiz.title}</h1>
               <p className="text-muted-foreground text-sm">
                 {quiz.description}

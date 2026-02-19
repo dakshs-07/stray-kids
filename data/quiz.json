@@ -1,0 +1,62 @@
+{
+  "slug": "lee-know",
+  "title": "How well do you know Lee Know?",
+  "description": "Test your understanding of the most chaotic and unhinged cat dad ever.",
+  "questions": [
+    {
+      "question": "What is Lee Know's birth name?",
+      "options": ["Lee Hyunsuk", "Kim Minho", "Lee Minho", "Lee Jisung"],
+      "answer": 3
+    },
+    {
+      "question": "How many siblings does Lee Know have?",
+      "options": ["One", "Two", "Three", "None"],
+      "answer": 4
+    },
+    {
+      "question": "Which group was Lee Know a backup dancer for before joining Stray Kids?",
+      "options": ["GOT7", "BTS", "EXO", "Seventeen"],
+      "answer": 2
+    },
+    {
+      "question": "How many cats does Lee Know have?",
+      "options": ["One", "Two", "Three", "None"],
+      "answer": 3
+    },
+    {
+      "question": "What role is Lee Know mainly known for?",
+      "options": ["Vocalist", "Producer", "Rapper", "Dancer"],
+      "answer": 4
+    },
+    {
+      "question": "Which sub-racha is he a part of?",
+      "options": ["3RACHA", "VocalRacha", "DanceRacha", "RapRacha"],
+      "answer": 3
+    },
+    {
+      "question": "How long was Lee Know's trainee period?",
+      "options": ["1 Year", "6 months", "2 years", "3 months"],
+      "answer": 4
+    },
+    {
+      "question": "What is his nickname related to cats?",
+      "options": ["Cat Prince", "Cat Butler", "Cat Dad", "Kitty King"],
+      "answer": 2
+    },
+    {
+      "question": "What is one of Lee Know's most impressive talents?",
+      "options": [
+        "Making mosquito sounds",
+        "Writing with both hands",
+        "Coooking the most delicious ramen with no salt",
+        "Doing 50 pushups in a row"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What city is Lee Know from?",
+      "options": ["Gimpo", "Busan", "Seoul", "Incheon"],
+      "answer": 1
+    }
+  ]
+}
