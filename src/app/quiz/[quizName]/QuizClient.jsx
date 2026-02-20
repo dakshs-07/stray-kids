@@ -1,13 +1,17 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import QuizResult from "./QuizResult";
 
 export default function QuizClient({ quiz }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
   const [answers, setAnswers] = useState([]);
   const currentQuestion = quiz.questions[currentIndex];
-
+  const [isTransitioning, setIsTransitioning] = useState(false);
+  const score = answers.reduce((total, answer, i) => {
+    return answer === quiz.questions[i]?.answer ? total + 1 : total;
+  }, 0);
   function handleBack() {
     if (currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
@@ -15,10 +19,8 @@ export default function QuizClient({ quiz }) {
     }
   }
 
-  const score = answers.reduce((total, answer, i) => {
-    return answer === quiz.questions[i].answer ? total + 1 : total;
-  }, 0);
   return (
+    
     <div className="border border-gray-200 min-h-screen py-8 px-4">
       <Image
         src={quiz.image}
@@ -29,10 +31,15 @@ export default function QuizClient({ quiz }) {
       />
       <h1 className="text-xl text-center">{quiz.title}</h1>
       <p className="text-center text-muted-foreground">{quiz.description}</p>
-      <p className="text-sm text-center py-4">
-        Question {currentIndex + 1} of {quiz.questions.length}
-      </p>
-      <div className="px-4 max-w-2xl mx-auto">
+      <div className="flex justify-around py-5 text-sm">
+        <p>Score: {score}</p>
+        <p>
+          Question {currentIndex + 1} of {quiz.questions.length}
+        </p>
+      </div>
+      <div
+        className={`px-4 max-w-2xl mx-auto transition-opacity duration-700 ${isTransitioning ? "opacity-30" : "opacity-100"}`}
+      >
         <h2 className="my-4 text-lg font-medium">
           {currentIndex + 1}. {currentQuestion.question}?
         </h2>
@@ -43,11 +50,14 @@ export default function QuizClient({ quiz }) {
               onClick={() => {
                 const updated = [...answers];
                 updated[currentIndex] = index;
+                setSelectedOption(index);
                 setAnswers(updated);
-
-                if (currentIndex < quiz.questions.length - 1) {
-                  setCurrentIndex(currentIndex + 1);
-                }
+                setIsTransitioning(true);
+                setTimeout(() => {
+                  setCurrentIndex((prev)=>prev+1);
+                  setSelectedOption(null);
+                  setIsTransitioning(false)
+                }, 500);
               }}
               className={`block w-full py-3 px-4 border border-gray-400 text-gray-700 text-left transition hover:bg-yellow-100/40 ${
                 selectedOption === index

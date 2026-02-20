@@ -1,42 +1,42 @@
 {
-  "slug": "stray-kids",
-  "title": "Stray Kids Quiz",
-  "description": "Can you answer these 10 questions on Stray Kids?.",
+  "slug": "stray-kids-stay",
+  "title": "Are you a certified STAY or just vibing?",
+  "description": "This quiz separates the casual listeneres from the lyric-analyzing, survival-show-watching, inside-joke-kowing STAYs",
   "questions": [
     {
-      "question": "Which Stray Kids member trained the longest under JYP?",
-      "options": ["Changbin", "Bang Chan", "Hyunjin", "Seungmin"],
-      "answer": 2
-    },
-    {
-      "question": "Which member almost got eliminated from during the survival show?",
-      "options": ["Felix", "I.N", "Han", "Bang Chan"],
-      "answer": 1
-    },
-    {
-      "question": "Which Stray Kids song was their first music show win?",
-      "options": ["My Pace", "Miroh", "God's Menu", "Back Door"],
-      "answer": 2
-    },
-    {
-      "question": "Which member is known for the lyric 'Cooking like a chef, I'm a 5-star Michelin'?",
-      "options": ["Changbin", "Lee Know", "Felix", "Han"],
+      "question": "Which Stray Kids song features the iconic 'Stray Kids, woo!'?",
+      "options": ["District 9", "God's Menu", "Miroh", "Back Door"],
       "answer": 3
     },
     {
-      "question": "What year did Stray Kids officially debut?",
-      "options": ["2017", "2018", "2019", "2020"],
+      "question": "Which member is known for being a part of the '01' line (born in 2001)?",
+      "options": ["Hyunjin", "Han", "Bang Chan", "I.N"],
+      "answer": 4
+    },
+    {
+      "question": "What member is known for his powerful aegyo resistance?",
+      "options": ["Changbin", "Lee Know", "Felix", "Han"],
       "answer": 2
     },
     {
-      "question": "Which two members are from Australia?",
-      "options": ["Felix and Bang Chan", "Hyunjin and Han", "Han and Felix", "Lee Know and Changbin"],
+      "question": "Which member has the nickname 'Binnie'?",
+      "options": ["Bangchan", "Han", "Changbin", "Seungmin"],
+      "answer": 3
+    },
+    {
+      "question": "Which song includes the lyric: 'I'm not sorry, I'm dirty'?",
+      "options": ["Thunderous", "God's Menu", "Charmer", "Red Lights"],
       "answer": 1
     },
     {
-      "question": "Which member is the maknae (youngest)?",
-      "options": ["Felix", "I.N", "Seungmin", "Hyunjin"],
-      "answer": 2
+      "question": "Which member is known for being extremely competitive in games?",
+      "options": ["Felix", "Hyunjin", "Bang Chan", "Lee Know"],
+      "answer": 4
+    },
+    {
+      "question": "What is the name of the survival show that formed Stray Kids?",
+      "options": ["Produce 101", "Kingdom", "Stray Kids", "Finding STAY"],
+      "answer": 3
     },
     {
       "question": "Which Stray Kids unit focuses on producing music?",
@@ -54,7 +54,7 @@
       "answer": 2
     },
     {
-      "question": "Which member is known for his love of cats?",
+      "question": "Which member has 3 cats?",
       "options": ["Felix", "Han", "Seungmin", "Lee Know"],
       "answer": 4
     }
