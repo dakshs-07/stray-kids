@@ -2,6 +2,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import QuizResult from "./QuizResult";
+import Link from "next/link";
+import { IoIosArrowRoundBack } from "react-icons/io";
 
 export default function QuizClient({ quiz }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -21,6 +23,12 @@ export default function QuizClient({ quiz }) {
 
   return (
     <div className="border border-gray-200 min-h-screen py-8 px-4">
+      <div className="flex items-center">
+        <IoIosArrowRoundBack size={25} />
+        <Link href="/quiz" className="underline cursor-pointer hover:text-muted-foreground">
+          Back to quizzes
+        </Link>
+      </div>
       <Image
         src={quiz.image}
         alt={quiz.title}
@@ -70,11 +78,11 @@ export default function QuizClient({ quiz }) {
                 </button>
               ))}
             </div>
-            <div className="mt-2">
+            <div className="mt-5">
               <button
                 onClick={handleBack}
                 disabled={currentIndex === 0}
-                className="underline"
+                className="underline cursor-pointer hover:text-muted-foreground"
               >
                 Back
               </button>

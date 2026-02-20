@@ -1,4 +1,5 @@
 import React from "react";
+import QuizRecommendations from "./QuizRecommendations";
 
 function QuizResult({ quiz, score, onRestart }) {
   const percentage = Math.round((score / quiz.questions.length) * 100);
@@ -28,8 +29,9 @@ function QuizResult({ quiz, score, onRestart }) {
           </p>
         </div>
         <p className="font-extralight tracking-wide text-xl text-muted-foreground">{message}</p>
-        <button onClick={()=>onRestart()} className="p-3 border my-10 cursor-pointer hover:bg-blue-800/50 hover:text-white">Restart</button>
+        <button onClick={()=>onRestart()} className="p-3 border mt-10 cursor-pointer hover:bg-blue-800/50 hover:text-white">Restart</button>
       </div>
+      <QuizRecommendations />
     </div>
   );
 }
