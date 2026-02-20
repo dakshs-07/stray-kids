@@ -20,7 +20,6 @@ export default function QuizClient({ quiz }) {
   }
 
   return (
-    
     <div className="border border-gray-200 min-h-screen py-8 px-4">
       <Image
         src={quiz.image}
@@ -31,54 +30,69 @@ export default function QuizClient({ quiz }) {
       />
       <h1 className="text-xl text-center">{quiz.title}</h1>
       <p className="text-center text-muted-foreground">{quiz.description}</p>
-      <div className="flex justify-around py-5 text-sm">
-        <p>Score: {score}</p>
-        <p>
-          Question {currentIndex + 1} of {quiz.questions.length}
-        </p>
-      </div>
-      <div
-        className={`px-4 max-w-2xl mx-auto transition-opacity duration-700 ${isTransitioning ? "opacity-30" : "opacity-100"}`}
-      >
-        <h2 className="my-4 text-lg font-medium">
-          {currentIndex + 1}. {currentQuestion.question}?
-        </h2>
-        <div className="flex flex-col gap-y-2">
-          {currentQuestion.options.map((option, index) => (
-            <button
-              key={index}
-              onClick={() => {
-                const updated = [...answers];
-                updated[currentIndex] = index;
-                setSelectedOption(index);
-                setAnswers(updated);
-                setIsTransitioning(true);
-                setTimeout(() => {
-                  setCurrentIndex((prev)=>prev+1);
-                  setSelectedOption(null);
-                  setIsTransitioning(false)
-                }, 500);
-              }}
-              className={`block w-full py-3 px-4 border border-gray-400 text-gray-700 text-left transition hover:bg-yellow-100/40 ${
-                selectedOption === index
-                  ? "text-black"
-                  : "bg-white hover:bg-gray-50"
-              }`}
-            >
-              {option}
-            </button>
-          ))}
-        </div>
-        <div className="mt-2">
-          <button
-            onClick={handleBack}
-            disabled={currentIndex === 0}
-            className="underline"
+      {currentIndex < quiz.questions.length ? (
+        <>
+          <div className="flex justify-around py-5 text-sm">
+            <p>Score: {score}</p>
+            <p>
+              Question {currentIndex + 1} of {quiz.questions.length}
+            </p>
+          </div>
+          <div
+            className={`px-4 max-w-2xl mx-auto transition-opacity duration-700 ${isTransitioning ? "opacity-30" : "opacity-100"}`}
           >
-            Back
-          </button>
-        </div>
-      </div>
+            <h2 className="my-4 text-lg font-medium">
+              {currentIndex + 1}. {currentQuestion.question}?
+            </h2>
+            <div className="flex flex-col gap-y-2">
+              {currentQuestion.options.map((option, index) => (
+                <button
+                  key={index}
+                  onClick={() => {
+                    const updated = [...answers];
+                    updated[currentIndex] = index;
+                    setSelectedOption(index);
+                    setAnswers(updated);
+                    setIsTransitioning(true);
+                    setTimeout(() => {
+                      setCurrentIndex((prev) => prev + 1);
+                      setSelectedOption(null);
+                      setIsTransitioning(false);
+                    }, 500);
+                  }}
+                  className={`block w-full py-3 px-4 border border-gray-400 text-gray-700 text-left transition hover:bg-yellow-100/40 ${
+                    selectedOption === index
+                      ? "text-black"
+                      : "bg-white hover:bg-gray-50"
+                  }`}
+                >
+                  {option}
+                </button>
+              ))}
+            </div>
+            <div className="mt-2">
+              <button
+                onClick={handleBack}
+                disabled={currentIndex === 0}
+                className="underline"
+              >
+                Back
+              </button>
+            </div>
+          </div>
+        </>
+      ) : (
+        <QuizResult
+          quiz={quiz}
+          answers={answers}
+          score={score}
+          onRestart={() => {
+            setCurrentIndex(0);
+            setAnswers([]);
+            setSelectedOption(null);
+          }}
+        />
+      )}
     </div>
   );
 }
