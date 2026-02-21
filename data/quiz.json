@@ -1,62 +1,63 @@
 {
-  "slug": "stray-kids-stay",
-  "title": "Are you a certified STAY or just vibing?",
-  "description": "This quiz separates the casual listeneres from the lyric-analyzing, survival-show-watching, inside-joke-kowing STAYs",
+  "slug": "bang-chan-quiz",
+  "title": "How Well Do You Really Know Bang Chan?",
+  "description": "If you miss more than three, Chan is side-eyeing you",
+  "images": "/quiz/bang-chan.webp",
   "questions": [
     {
-      "question": "Which Stray Kids song features the iconic 'Stray Kids, woo!'?",
-      "options": ["District 9", "God's Menu", "Miroh", "Back Door"],
-      "answer": 3
-    },
-    {
-      "question": "Which member is known for being a part of the '01' line (born in 2001)?",
-      "options": ["Hyunjin", "Han", "Bang Chan", "I.N"],
-      "answer": 4
-    },
-    {
-      "question": "What member is known for his powerful aegyo resistance?",
-      "options": ["Changbin", "Lee Know", "Felix", "Han"],
-      "answer": 2
-    },
-    {
-      "question": "Which member has the nickname 'Binnie'?",
-      "options": ["Bangchan", "Han", "Changbin", "Seungmin"],
-      "answer": 3
-    },
-    {
-      "question": "Which song includes the lyric: 'I'm not sorry, I'm dirty'?",
-      "options": ["Thunderous", "God's Menu", "Charmer", "Red Lights"],
+      "question": "How many siblings does Bang Chan have?",
+      "options": ["One", "Two", "Three", "None"],
       "answer": 1
     },
     {
-      "question": "Which member is known for being extremely competitive in games?",
-      "options": ["Felix", "Hyunjin", "Bang Chan", "Lee Know"],
-      "answer": 4
-    },
-    {
-      "question": "What is the name of the survival show that formed Stray Kids?",
-      "options": ["Produce 101", "Kingdom", "Stray Kids", "Finding STAY"],
+      "question": "Which country was Bang Chan born in?",
+      "options": ["South Korea", "Canada", "America", "Australia"],
       "answer": 3
     },
     {
-      "question": "Which Stray Kids unit focuses on producing music?",
-      "options": ["DanceRacha", "VocalRacha", "RapRacha", "3RACHA"],
-      "answer": 4
-    },
-    {
-      "question": "Which Stray Kids album includes the song 'Thunderous'?",
-      "options": [
-        "I am YOU",
-        "NOEASY",
-        "GO LIVE",
-        "MAXIDENT"
-      ],
+      "question": "What is Bang Chan's full birth name?",
+      "options": ["Christopher Bang", "Bang Christopher Choi", "Christopher Bang Chan", "Chan Christopher Lee"],
       "answer": 2
     },
     {
-      "question": "Which member has 3 cats?",
-      "options": ["Felix", "Han", "Seungmin", "Lee Know"],
-      "answer": 4
+      "question": "How many years did Bang Chan train under JYP before debuting?",
+      "options": ["3 years", "5 years", "7 years", "10 years"],
+      "answer": 2
+    },
+    {
+      "question": "What was the name of Bang Chan's weekly live broadcast series?",
+      "options": ["Chan's Studio", "Chan's Room", "Chan's Radio", "Stay Night"],
+      "answer": 1
+    },
+    {
+      "question": "What was the name of the survival show that formed Stray Kids?",
+      "options": ["Kingdom", "Stray Kids", "Produce 101", "Finding SKZ"],
+      "answer": 1
+    },
+    {
+      "question": "What animal emoji is associated with Bang Chan?",
+      "options": ["🐯", "🐺", "🐶", "🦊"],
+      "answer": 1
+    },
+    {
+      "question": "Which Stray Kids subunit is Bang Chan a part of?",
+      "options": ["DanceRacha", "VocalRacha", "RapRacha", "3RACHA"],
+      "answer": 3
+    },
+    {
+      "question": "What stage name did Bang Chan use in 3RACHA",
+      "options": [
+        "CB97",
+        "Chan97",
+        "BC97",
+        "ChrisB"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which year was Bang Chan born?",
+      "options": ["1995", "1996", "1997", "1998"],
+      "answer": 2
     }
   ]
 }
