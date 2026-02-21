@@ -7,7 +7,7 @@ import Hero from "../components/Hero";
 import RightBar from "../components/RightBar";
 import Footer from "../components/Footer";
 import Recommended from "../components/Recommended";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from '@vercel/analytics/next';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
