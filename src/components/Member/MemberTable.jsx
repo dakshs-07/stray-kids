@@ -1,7 +1,6 @@
 import Image from "next/image";
-import React from "react";
 
-function MemberTable({data}) {
+function MemberTable({ data }) {
   return (
     <div className="overflow-x-auto flex flex-col justify-center items-center">
       <table className="w-full border-collapse border border-gray-300 ">

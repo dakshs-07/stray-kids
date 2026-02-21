@@ -1,5 +1,5 @@
 import MemberTable from "../../../components/Member/MemberTable";
-import React from "react";
+
 import { SeungminData } from "../../../../data/Table";
 import FunFacts from "../../../components/Member/FunFacts";
 import { SeungminFacts } from "../../../../data/FunFacts";

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 function Footer() {
   return (
@@ -24,7 +23,9 @@ function Footer() {
           width={200}
         /> */}
       </div>
-      <p className="font-extralight text-center tracking-wider py-2">CC 2026 Stray Kids Fandom</p>
+      <p className="font-extralight text-center tracking-wider py-2">
+        CC 2026 Stray Kids Fandom
+      </p>
     </div>
   );
 }

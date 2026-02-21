@@ -1,4 +1,3 @@
-import React from "react";
 import memberData from "../../../data/members";
 import Image from "next/image";
 import Link from "next/link";

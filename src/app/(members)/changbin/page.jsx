@@ -1,5 +1,4 @@
 import MemberTable from "../../../components/Member/MemberTable";
-import React from "react";
 import { ChangbinData } from "../../../../data/Table";
 import FunFacts from "../../../components/Member/FunFacts";
 import { ChangbinFacts } from "../../../../data/FunFacts";

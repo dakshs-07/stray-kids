@@ -1,15 +1,15 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+
 import { ImageCarousel } from "./Main/ImageCarousel";
 import memberData from "../../data/members";
 import { usePathname } from "next/navigation";
 import { HeroTitles } from "../../data/members";
 
 function Hero() {
-    const pathname = usePathname();
-    const page = usePathname === "/" ? "home" : pathname.replace("/", "");
-    const heroName = HeroTitles.find((item)=>item.page===page);
+  const pathname = usePathname();
+  const page = usePathname === "/" ? "home" : pathname.replace("/", "");
+  const heroName = HeroTitles.find((item) => item.page === page);
   return (
     <div>
       <ImageCarousel page={page} />

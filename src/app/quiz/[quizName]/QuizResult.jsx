@@ -1,5 +1,3 @@
-import React from "react";
-
 function QuizResult({ quiz, score, onRestart }) {
   const percentage = Math.round((score / quiz.questions.length) * 100);
   let message = "";
@@ -21,14 +19,22 @@ function QuizResult({ quiz, score, onRestart }) {
         <h1 className="tracking-wide text-2xl">RESULTS</h1>
         <div className="flex max-w-xl justify-between gap-x-10 text-xl py-5">
           <p>
-            Your score:{" "}<span className="text-blue-500 font-bold">{score}</span>
+            Your score: <span className="text-blue-500 font-bold">{score}</span>
           </p>
           <p>
-            Percentage:{" "}<span className="text-blue-500 font-bold">{percentage}%</span>
+            Percentage:{" "}
+            <span className="text-blue-500 font-bold">{percentage}%</span>
           </p>
         </div>
-        <p className="font-extralight tracking-wide text-xl text-muted-foreground">{message}</p>
-        <button onClick={()=>onRestart()} className="p-3 border mt-10 cursor-pointer hover:bg-blue-800/50 hover:text-white">Restart</button>
+        <p className="font-extralight tracking-wide text-xl text-muted-foreground">
+          {message}
+        </p>
+        <button
+          onClick={() => onRestart()}
+          className="p-3 border mt-10 cursor-pointer hover:bg-blue-800/50 hover:text-white"
+        >
+          Restart
+        </button>
       </div>
     </div>
   );

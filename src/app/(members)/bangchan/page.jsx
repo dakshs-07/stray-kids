@@ -1,5 +1,4 @@
 import MemberTable from "../../../components/Member/MemberTable";
-import React from "react";
 import { BangchanData } from "../../../../data/Table";
 import FunFacts from "../../../components/Member/FunFacts";
 import { BangchanFacts } from "../../../../data/FunFacts";

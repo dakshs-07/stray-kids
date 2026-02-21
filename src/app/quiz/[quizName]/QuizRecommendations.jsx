@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { getRandomQuizzesFromDB } from "../../../lib/getRandomQuizzes";
 import Link from "next/link";
-import React from "react";
+
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 export default async function QuizRecommendations() {

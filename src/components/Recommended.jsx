@@ -1,4 +1,3 @@
-import React from "react";
 import RecommendedCards from "./RecommendedCards";
 
 function Recommended() {
