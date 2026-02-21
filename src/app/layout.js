@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import RightBar from "../components/RightBar";
 import Footer from "../components/Footer";
 import Recommended from "../components/Recommended";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
           <LeftBar />
           <main className="flex-1 px-4 sm:px-6 md:px-10 lg:px-20">
             {children}
+            <Analytics />
           </main>
           <RightBar />
         </div>
