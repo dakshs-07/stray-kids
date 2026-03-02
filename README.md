@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## more features to add
+1. bias battle arena (live voting/underrated king leaderboard/most popular mem overall and stuff)
+2. song mood finder - select an option, find the song for you
+3. stray kids timeline
+4. guess the lyric game
+5. which member are you typa quiz
+6. inside joke section
+7. random skz generator: bless me, chan -> random member/era/song/iconic quote
+8. stay world map - drtop a pin, leave a short message - STAYs around the world
+
 ## Getting Started
 
 First, run the development server:
