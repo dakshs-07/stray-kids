@@ -21,7 +21,7 @@ function ComebackCarousel() {
             <div className="w-full max-w-2xl aspect-video my-5">
               <iframe
                 className="w-full h-full rounded-lg"
-                src="https://open.spotify.com/embed/track/56Fu41EhpsPqqfDZsj3eaN?utm_source=generator&theme=0"
+                src="https://www.youtube.com/embed/NED7nev2ywQ"
                 title="YouTube video player"
                 allowFullScreen
               />
@@ -31,7 +31,7 @@ function ComebackCarousel() {
             <div className="w-full max-w-2xl aspect-video my-5">
               <iframe
                 className="w-full h-full rounded-lg"
-                src="https://www.youtube.com/embed/NED7nev2ywQ"
+                src="https://open.spotify.com/embed/track/56Fu41EhpsPqqfDZsj3eaN?utm_source=generator&theme=0"
                 title="YouTube video player"
                 allowFullScreen
               />

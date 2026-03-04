@@ -20,7 +20,7 @@ function LeftBar() {
   }
 
   return (
-    <div className="max-w-70 p-1 ml-10 sticky top-0 h-screen">
+    <div className="w-full sm:w-64 lg:w-72 p-2 ml-4 sticky top-0 h-screen bg-gray-500">
       <div className="bg-black h-6 w-full text-white px-2 tracking-wide">
         Specials
       </div>

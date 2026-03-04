@@ -23,7 +23,7 @@ function Members() {
 
               <h1 className="text-xl tracking-wide font-light">{item.name}</h1>
             </Link>
-            <p className="italic font-light text-gray-600">{item.role}</p>
+            <p className="italic font-light text-gray-600 dark:text-white/70">{item.role}</p>
           </div>
         ))}
       </div>

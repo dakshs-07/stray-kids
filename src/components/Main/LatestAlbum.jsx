@@ -25,29 +25,29 @@ function LatestAlbum() {
           <p className="font-semibold mt-2">Tracks:</p>
           <ol className="list-decimal list-inside">
             <a href="https://www.youtube.com/watch?v=NED7nev2ywQ&list=OLAK5uy_nNAxQ3Hb5fwZ9xyMYAkniRXaLJam8wnRU">
-              <li className="hover:text-muted-foreground">
+              <li className="hover:text-muted-foreground dark:hover:text-black">
                 Do It
-                <span className="text-xs bg-yellow-400 px-1 mx-2 tracking-wide">
+                <span className="text-xs bg-yellow-400 px-1 mx-2 tracking-wide dark:text-black">
                   Title
                 </span>
               </li>
             </a>
             <a href="https://www.youtube.com/watch?v=E8i32NXMxnc&list=OLAK5uy_nNAxQ3Hb5fwZ9xyMYAkniRXaLJam8wnRU">
-              <li className="hover:text-muted-foreground">
+              <li className="hover:text-muted-foreground dark:hover:text-black">
                 신선놀음 DIVINE
-                <span className="text-xs bg-yellow-400 px-1 mx-2 tracking-wide">
+                <span className="text-xs bg-yellow-400 px-1 mx-2 tracking-wide dark:text-black">
                   Title
                 </span>
               </li>
             </a>
             <a href="https://www.youtube.com/watch?v=EZh3S8-WmyU&list=OLAK5uy_nNAxQ3Hb5fwZ9xyMYAkniRXaLJam8wnRU">
-              <li className="hover:text-muted-foreground">Holiday</li>
+              <li className="hover:text-muted-foreground dark:hover:text-black">Holiday</li>
             </a>
             <a href="https://www.youtube.com/watch?v=l5OuKEpNqos&list=OLAK5uy_nNAxQ3Hb5fwZ9xyMYAkniRXaLJam8wnRU">
-              <li className="hover:text-muted-foreground">Photobook</li>
+              <li className="hover:text-muted-foreground dark:hover:text-black">Photobook</li>
             </a>
             <a href="https://www.youtube.com/watch?v=StNhoo8mp48&list=OLAK5uy_nNAxQ3Hb5fwZ9xyMYAkniRXaLJam8wnRU">
-              <li className="hover:text-muted-foreground">
+              <li className="hover:text-muted-foreground dark:hover:text-black">
                 Do It (Festival ver.)
               </li>
             </a>

@@ -4,8 +4,8 @@ function Recommended() {
   return (
     <div className="mx-40 my-20">
       <div>
-        <div className="border-b-2 border-black">
-          <div className="bg-black text-white p-2 h-fit w-fit">
+        <div className="border-b-2 border-black dark:border-white">
+          <div className="bg-black text-white dark:bg-gray-600 p-2 h-fit w-fit">
             You may also like
           </div>
         </div>
