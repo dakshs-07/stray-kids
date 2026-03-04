@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="bg-black text-white px-20 py-12 text-sm">
+    <div className="bg-black text-white dark:bg-gray-900 px-20 py-12 text-sm">
       <div className="flex justify-between">
         <div className="flex flex-col space-y-2">
           <Link href="" className="hover:underline">

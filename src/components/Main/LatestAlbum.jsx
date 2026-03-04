@@ -4,8 +4,8 @@ import ComebackCarousel from "./ComebackCarousel";
 
 function LatestAlbum() {
   return (
-    <div className="bg-gray-100 py-10">
-      <h1 className="text-4xl tracking-wide text-center">Latest Comeback</h1>
+    <div className="bg-gray-100 py-10 dark:bg-gray-400">
+      <h1 className="text-4xl tracking-wide text-center dark:text-black">Latest Comeback</h1>
       <p className="text-2xl tracking-widest text-center text-muted-foreground">
         Do It | Nov 21, 2025
       </p>
