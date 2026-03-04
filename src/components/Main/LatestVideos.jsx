@@ -39,7 +39,7 @@ export default function LatestVideos() {
               alt={video.snippet.title}
               className="rounded-xl sm:w-50 md:w-100"
             />
-            <h3 className="mt-2 text-sm font-semibold group-hover:text-gray-500 sm:max-w-50 md:max-w-50">
+            <h3 className="mt-2 text-sm font-semibold group-hover:text-gray-500 sm:max-w-70 md:max-w-70">
               {video.snippet.title}
             </h3>
           </a>
