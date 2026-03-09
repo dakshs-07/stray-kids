@@ -11,6 +11,7 @@ export default function QuizClient({ quiz }) {
   const [answers, setAnswers] = useState([]);
   const currentQuestion = quiz.questions[currentIndex];
   const [isTransitioning, setIsTransitioning] = useState(false);
+  const [showAnswer, setShowAnswer] = useState(false);
   const score = answers.reduce((total, answer, i) => {
     return answer === quiz.questions[i]?.answer ? total + 1 : total;
   }, 0);
@@ -25,7 +26,10 @@ export default function QuizClient({ quiz }) {
     <div className="border border-gray-200 min-h-screen py-8 px-4">
       <div className="flex items-center">
         <IoIosArrowRoundBack size={25} />
-        <Link href="/quiz" className="underline cursor-pointer hover:text-muted-foreground">
+        <Link
+          href="/quiz"
+          className="underline cursor-pointer hover:text-muted-foreground"
+        >
           Back to quizzes
         </Link>
       </div>
@@ -57,21 +61,32 @@ export default function QuizClient({ quiz }) {
                 <button
                   key={index}
                   onClick={() => {
+                    if (selectedOption !== null) return;
                     const updated = [...answers];
                     updated[currentIndex] = index;
                     setSelectedOption(index);
                     setAnswers(updated);
-                    setIsTransitioning(true);
+                    setTimeout(() => {
+                      setShowAnswer(true);
+                    }, 200);
+                    setTimeout(() => {
+                      setIsTransitioning(true);
+                    }, 700);
                     setTimeout(() => {
                       setCurrentIndex((prev) => prev + 1);
                       setSelectedOption(null);
+                      setShowAnswer(false);
                       setIsTransitioning(false);
-                    }, 500);
+                    }, 1100);
                   }}
-                  className={`block w-full py-3 px-4 border border-gray-400 text-gray-700 text-left transition hover:bg-yellow-100/40 ${
-                    selectedOption === index
-                      ? "text-black"
-                      : "bg-white hover:bg-gray-50"
+                  className={`block w-full py-3 px-4 border border-gray-400 text-gray-700 text-left transition hover:border-yellow-100/40 ${
+                    showAnswer
+                      ? index === currentQuestion.answer
+                        ? "bg-green-200 border-green-500"
+                        : selectedOption === index
+                          ? "bg-red-200 border-red-500"
+                          : "bg-white"
+                      : "bg-white hover:bg-gray-50 border-gray-400"
                   }`}
                 >
                   {option}
