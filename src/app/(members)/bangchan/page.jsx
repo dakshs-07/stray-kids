@@ -9,7 +9,7 @@ function page() {
   return (
     <div className="max-w-4xl mx-auto px-6 my-5">
       <section id="eras">
-        <EraCarousel slides={BangchanEras} memberName="Lee Know" />
+        <EraCarousel slides={BangchanEras} memberName="Bang Chan" />
       </section>
       <div className="flex justify-around items-start">
         <section id="profile">
