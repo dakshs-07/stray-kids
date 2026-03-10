@@ -1,62 +1,59 @@
 {
-  "slug": "3racha-quiz",
-  "title": "Are you actually a 3RACHA expert?",
-  "description": "Be honest. Do you know 3RACHA or just scream during concerts?",
-  "image": "/quiz/3racha.jpg",
+  "slug": "han-quiz",
+  "title": "The ULTIMATE Han Jisung Quiz",
+  "description": "How well do you know the ace of kpop?",
+  "image": "/quiz/han.jpg",
   "questions": [
     {
-      "question": "3RACHA consists of:",
-      "options": ["Bang Chan, Changbin, Han", "Lee Know, Han, Seungmin", "Han, Felix, I.N", "Bang Chan, Lee Know, Changbin"],
-      "answer": 0
-    },
-    {
-      "question": "When did 3RACHA debut before Stray Kids?",
-      "options": ["2016", "2017", "2018", "2019"],
+      "question": "Before debuting in Stray Kids, what was Han Jisung's trainee nickname?",
+      "options": ["Squirrel", "Ace", "Baby Rapper", "Genius"],
       "answer": 1
     },
     {
-      "question": "3RACHA is known for:",
-      "options": ["Dance covers", "Acting", "Songwriting and Production", "MC Hosting"],
-      "answer": 2
-    },
-    {
-      "question": "True fans know that 3RACHA is:",
-      "options": ["Just a subunit", "The backbone of SKZ music", "Temporary", "A dance team"],
-      "answer": 1
-    },
-    {
-      "question": "3RACHA is under:",
-      "options": ["SM", "Hybe", "JYP", "YG"],
-      "answer": 2
-    },
-    {
-      "question": "What is Changbin's 3RACHA name?",
-      "options": ["CB97", "SpearB", "J.ONE", "Rap.2"],
-      "answer": 1
-    },
-    {
-      "question": "How is Han known as a part of 3RACHA?",
-      "options": ["CB97", "SpearB", "J.ONE", "Rap.2"],
-      "answer": 2
-    },
-    {
-      "question": "What would Seungmin most likely buy for himself?",
-      "options": ["A hotpot", "A new Car", "A coffee machine", "New headsets"],
-      "answer": 2
-    },
-    {
-      "question": "Which song is produced by 3RACHA?",
-      "options": [
-        "Drive",
-        "God's Menu",
-        "Phobia",
-        "We Go"
-      ],
+      "question": "Which country did Han spend part of his childhood in?",
+      "options": ["Thailand", "Singapore", "Australia", "Malaysia"],
       "answer": 3
     },
     {
-      "question": "When did 3RACHA upload their first mixtape on SoundCloud?",
-      "options": ["2015", "2016", "2017", "2018"],
+      "question": "Han wrote his first song at approximately what age?",
+      "options": ["13", "16", "18", "11"],
+      "answer": 0
+    },
+    {
+      "question": "Which unit in Stray Kids is Jisung a part of?",
+      "options": ["DanceRacha", "VocalRacha", "3RACHA", "RapLine"],
+      "answer": 2
+    },
+    {
+      "question": "Which animal is most commonly associated with Han by fans?",
+      "options": ["Hamster", "Squirrel", "Fox", "Cat"],
+      "answer": 1
+    },
+    {
+      "question": "What skill is Han known for during recording sessions?",
+      "options": ["Writing lyrics very quickly", "Perfect Pitch", "Beatboxing", "Mixing songs himself"],
+      "answer": 0
+    },
+    {
+      "question": "Which stage from the survival stage show Han's rap highlights early on?",
+      "options": ["Hellevator Stage", "YG vs JYP battle", "Unit Stage Battle", "Self-producing music"],
+      "answer": 0
+    },
+    {
+      "question": "Which genre does Han often experiment with in SKZ-Record or solo releases?",
+      "options": ["Emo", "Jazz", "Classical", "EDM Music"],
+      "answer": 0
+    },
+    {
+      "question": "Which habit is Han known for during recording sessions?",
+      "options": [
+       "Writing only at night", "Writing while pacing around", "Writing entire songs in one sitting", "Writing only in English first"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which ship is Jisung a part of?",
+      "options": ["Seungbin", "Minbin", "Minsung", "Hyunlix"],
       "answer": 2
     }
   ]
