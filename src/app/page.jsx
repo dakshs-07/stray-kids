@@ -17,7 +17,7 @@ function page() {
         <Members />
         <LatestAlbum />
         <LatestVideos />
-        <MemberSpotlight />
+        {/* <MemberSpotlight /> */}
       </div>
     </>
   );
