@@ -1,5 +1,24 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Stray Kids Fandom Site
+
+A small Stray Kids fan site I built because being a STAY is basically a personality trait at this point.
+
+Just a place for SKZ stuff in one spot - info, fun things and general appreciation for 8 extremely talented humans.
+
+Also an excuse to build something for fun and make the internet slightly more Stray Kids coded.
+
+## What's here
+
+* Stray Kids info
+* random fan things
+* bias quizzes
+* general SKZ appreciation
+
+## Note
+
+**This is a fan-made project and isn't affiliated with Stray Kids or JYP Entertainment.
+**
 ## more features to add
 1. bias battle arena (live voting/underrated king leaderboard/most popular mem overall and stuff)
 2. song mood finder - select an option, find the song for you
