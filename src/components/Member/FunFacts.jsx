@@ -2,7 +2,7 @@ import React from 'react'
 
 function FunFacts({factData}) {
   return (
-    <div className="bg-gray-100 my-10 px-2 py-5 flex flex-col justify-center items-center">
+    <div className="my-10 px-2 py-5 flex flex-col justify-center items-center bg-gray-700 text-white">
       <h1 className="text-3xl tracking-wide font-extralight mb-2">
         Fun Facts
       </h1>
