@@ -1,11 +1,13 @@
 import MemberTable from "../../../components/Member/MemberTable";
-
 import { LeeKnowData } from "../../../../data/Table";
 import FunFacts from "../../../components/Member/FunFacts";
 import { LeeknowFacts } from "../../../../data/FunFacts";
 import EraCarousel from "../../../components/Member/EraCarousel";
 import { LeeknowEras } from "../../../../data/erasData";
 import MediaAppearances from "../../../components/Member/MediaAppearances";
+import Brands from "../../../components/Member/Brands";
+import { MemberMarqueeImages } from "../../../../data/members";
+
 function page() {
   return (
     <div className="max-w-4xl mx-auto px-6 my-5">
@@ -20,6 +22,10 @@ function page() {
             height={200}
             className="object-cover"
           /> */}
+        <section>
+          {" "}
+          <Brands images={MemberMarqueeImages.leeknow} />
+        </section>
         <section id="profile">
           <MemberTable data={LeeKnowData} className="profile" />
         </section>

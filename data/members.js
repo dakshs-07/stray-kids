@@ -165,3 +165,16 @@ export const HeroTitles = [
     imagelist: LeeKnowBanners,
   },
 ];
+
+export const MemberMarqueeImages = {
+  bangchan: [],
+  leeknow: [
+    "/brands/gucci.png", "/brands/biore.png", "/brands/pepero.png", "/brands/tommy.png"
+  ],
+  changbin: [],
+  hyunjin: [],
+  felix: [],
+  han: [],
+  seungmin: [],
+  in: [],
+}
