@@ -95,6 +95,18 @@ const Banners = [
   "/main/banner3.webp",
   "/main/banner4.webp",
 ];
+
+const BangChanBanners = [
+  "/banners/bangchan/bangchanbanner3.jpg",
+  "/banners/bangchan/bangchanbanner1.jpg",
+];
+
+const ChangbinBanners = [
+  "/banners/Changbin/changbinbanner1.jpg",
+  "/banners/Changbin/changbinbanner2.jpg",
+];
+
+
 const LeeKnowBanners = [
   "/banners/leeknow/leeknow-banner1.jpg",
   "/banners/leeknow/leeknow-banner2.jpg",
@@ -105,6 +117,27 @@ const HyunjinBanners = [
   "/banners/hyunjin/hyunjinbanner2.jpg",
   "/banners/hyunjin/hyunjinbanner1.jpg",
 ]
+const FelixBanners = [
+  "/banners/Felix/felixbanner3.jpg",
+  "/banners/Felix/felixbanner2.jpg",
+  "/banners/Felix/felixbanner1.jpg",
+]
+
+const HanBanners = [
+  "/banners/han/hanbanner1.jpg",
+  "/banners/han/hanbanner2.jpg",
+  "/banners/han/hanbanner3.jpg",
+
+]
+
+const SeungminBanners = [
+  "/banners/seungmin/seungminbanner1.jpg",
+]
+const InBanners = [
+  "/banners/in/inbanner1.jpg",
+]
+
+
 
 export const HeroTitles = [
   {
@@ -119,7 +152,7 @@ export const HeroTitles = [
     name: "Bangchan",
     page: "bangchan",
     korean: "방 찬",
-    imagelist: Banners,
+    imagelist: BangChanBanners,
   },
   {
     id: 3,
@@ -133,7 +166,7 @@ export const HeroTitles = [
     name: "Changbin",
     page: "changbin",
     korean: "서 창빈",
-    imagelist: LeeKnowBanners,
+    imagelist: ChangbinBanners,
   },
   {
     id: 5,
@@ -147,27 +180,27 @@ export const HeroTitles = [
     name: "Han Jisung",
     page: "han",
     korean: "한 지성",
-    imagelist: LeeKnowBanners,
+    imagelist: HanBanners,
   },
   {
     id: 7,
     name: "Felix",
     page: "felix",
     korean: "이 용복 ",
-    imagelist: LeeKnowBanners,
+    imagelist: FelixBanners,
   },
   {
     id: 8,
     name: "Seungmin",
     page: "seungmin",
     korean: "김 승민",
-    imagelist: LeeKnowBanners,
+    imagelist: SeungminBanners,
   },
   {
     id: 9,
     name: "I.N",
     page: "in",
     korean: "양 정인",
-    imagelist: LeeKnowBanners,
+    imagelist: InBanners,
   },
 ];
