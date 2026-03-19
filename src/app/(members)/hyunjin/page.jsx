@@ -3,6 +3,7 @@ import MemberTable from "../../../components/Member/MemberTable";
 import { HyunjinData } from "../../../../data/Table";
 import FunFacts from "../../../components/Member/FunFacts";
 import { HyunjinFacts } from "../../../../data/FunFacts";
+import EraCarousel from "../../../components/Member/EraCarousel";
 function page() {
   return (
     <div className="max-w-4xl mx-auto px-6 my-5">
