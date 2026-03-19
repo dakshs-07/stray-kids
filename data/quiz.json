@@ -1,60 +1,61 @@
 {
-  "slug": "han-quiz",
-  "title": "The ULTIMATE Han Jisung Quiz",
-  "description": "How well do you know the ace of kpop?",
+  "slug": "skz-song-quiz-impossible",
+  "title": "Level: Impossible Guess the song from the lyrics",
+  "description": "Bet you can't guess these songs from the lyrics",
   "image": "/quiz/han.jpg",
   "questions": [
     {
-      "question": "Before debuting in Stray Kids, what was Han Jisung's trainee nickname?",
-      "options": ["Squirrel", "Ace", "Baby Rapper", "Genius"],
-      "answer": 1
-    },
-    {
-      "question": "Which country did Han spend part of his childhood in?",
-      "options": ["Thailand", "Singapore", "Australia", "Malaysia"],
+      "question": "Cooking like a chef I'ma 5 star Michelin",
+      "options": ["Do It", "SuperBowl", "Red Lights", "God's Menu"],
       "answer": 3
     },
     {
-      "question": "Han wrote his first song at approximately what age?",
-      "options": ["13", "16", "18", "11"],
-      "answer": 0
-    },
-    {
-      "question": "Which unit in Stray Kids is Jisung a part of?",
-      "options": ["DanceRacha", "VocalRacha", "3RACHA", "RapLine"],
+      "question": "I love what you hate...",
+      "options": ["Holiday", "JJAM", "Cheese", "Maniac"],
       "answer": 2
     },
     {
-      "question": "Which animal is most commonly associated with Han by fans?",
-      "options": ["Hamster", "Squirrel", "Fox", "Cat"],
+      "question": "I just wanna talk about fantasy \nLet's escape from reality",
+      "options": ["So Good", "Megaverse", "Photobook", "Connected"],
+      "answer": 0
+    },
+    {
+      "question": "Ride like the motion of the ocean, high tide in the moonlight",
+      "options": ["Hallucination", "Do It", "Drive", "Railway"],
+      "answer": 2
+    },
+    {
+      "question": "Let me show you how we play, it's not a game bruh",
+      "options": ["CEREMONY", "LALALALA", "Divine", "Chk Chk Boom"],
+      "answer": 2
+    },
+    {
+      "question": "I am up above the world so high, I'll be there shining day and night...",
+      "options": ["S-Class", "God's Menu", "MANIAC", "CASE 143"],
+      "answer": 0
+    },
+    {
+      "question": "Un, Deux, Trois, Run along with the Gods...",
+      "options": ["Back Door", "Divine", "MEGAVERSE", "Endless Sun"],
+      "answer": 2
+    },
+    {
+      "question": "You can call me Harry Potter...",
+      "options": ["I Like It", "Hollow", "JJAM", "Walkin on Water"],
+      "answer": 3
+    },
+    {
+      "question": "Gave up my youth \nFor my future\nI just want to\nRise up stronger",
+      "options": [
+       "Side Effects", "Social Path", "Do It", "Thunderous"
+      ],
       "answer": 1
     },
     {
-      "question": "What skill is Han known for during recording sessions?",
-      "options": ["Writing lyrics very quickly", "Perfect Pitch", "Beatboxing", "Mixing songs himself"],
-      "answer": 0
-    },
-    {
-      "question": "Which stage from the survival stage show Han's rap highlights early on?",
-      "options": ["Hellevator Stage", "YG vs JYP battle", "Unit Stage Battle", "Self-producing music"],
-      "answer": 0
-    },
-    {
-      "question": "Which genre does Han often experiment with in SKZ-Record or solo releases?",
-      "options": ["Emo", "Jazz", "Classical", "EDM Music"],
-      "answer": 0
-    },
-    {
-      "question": "Which habit is Han known for during recording sessions?",
-      "options": [
-       "Writing only at night", "Writing while pacing around", "Writing entire songs in one sitting", "Writing only in English first"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "Which ship is Jisung a part of?",
-      "options": ["Seungbin", "Minbin", "Minsung", "Hyunlix"],
-      "answer": 2
+      "question": "Nothing much, I confess\n All the stars in my eyes\nMake my Galaxy",
+      "options": ["3RACHA", "FREEZE", "Hall of Fame", "Item"],
+      "answer": 3
     }
   ]
+
 }
