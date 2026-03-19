@@ -1,17 +1,23 @@
 import MemberTable from "../../../components/Member/MemberTable";
-
 import { HyunjinData } from "../../../../data/Table";
 import FunFacts from "../../../components/Member/FunFacts";
 import { HyunjinFacts } from "../../../../data/FunFacts";
 import EraCarousel from "../../../components/Member/EraCarousel";
-import { LeeknowEras } from "data/erasData";
+import { HyunjinEras } from "../../../../data/erasData";
+import MediaAppearances from "../../../components/Member/MediaAppearances";
+import Brands from "../../../components/Member/Brands";
+import { MemberMarqueeImages } from "../../../../data/brands";
+
 function page() {
   return (
     <div className="max-w-4xl mx-auto px-6 my-5">
       <section id="eras">
-        <EraCarousel slides={LeeknowEras} memberName="Hyunjin" />
+        <EraCarousel slides={HyunjinEras} memberName="Hyunjin" />
       </section>
       <div className="flex justify-around items-start">
+        <section>
+          <Brands images={MemberMarqueeImages.hyunjin} />
+        </section>
         <section id="profile">
           <MemberTable data={HyunjinData} className="profile" />
         </section>

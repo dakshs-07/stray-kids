@@ -176,13 +176,13 @@ export const ChangbinEras = [
 
 export const HyunjinEras = [
   {
-    src: "/eras/Hyunjin/HyunjinPreDebut.jpg",
+    src: "/eras/Hyunjin/hyunjinpredebut.jpg",
     alt: "img1",
     eraName: "Pre-debut",
     eraYear: 2017,
   },
   {
-    src: "/eras/Hyunjin/Hyunjin-IAmYou.jpg",
+    src: "/eras/Hyunjin/HyunjinIAmYou.jpg",
     alt: "img1",
     eraName: "I am Series",
     eraYear: 2018,

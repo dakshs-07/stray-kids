@@ -6,7 +6,7 @@ import EraCarousel from "../../../components/Member/EraCarousel";
 import { LeeknowEras } from "../../../../data/erasData";
 import MediaAppearances from "../../../components/Member/MediaAppearances";
 import Brands from "../../../components/Member/Brands";
-import { MemberMarqueeImages } from "../../../../data/members";
+import { MemberMarqueeImages } from "../../../../data/brands";
 
 function page() {
   return (

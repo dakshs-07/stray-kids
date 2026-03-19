@@ -100,6 +100,11 @@ const LeeKnowBanners = [
   "/banners/leeknow/leeknow-banner2.jpg",
   "/banners/leeknow/leeknow2.jpg",
 ];
+const HyunjinBanners = [
+  "/banners/hyunjin/hyunjinbanner3.jpg",
+  "/banners/hyunjin/hyunjinbanner2.jpg",
+  "/banners/hyunjin/hyunjinbanner1.jpg",
+]
 
 export const HeroTitles = [
   {
@@ -135,7 +140,7 @@ export const HeroTitles = [
     name: "Hyunjin",
     page: "hyunjin",
     korean: "황 현진",
-    imagelist: LeeKnowBanners,
+    imagelist: HyunjinBanners,
   },
   {
     id: 6,
@@ -166,16 +171,3 @@ export const HeroTitles = [
     imagelist: LeeKnowBanners,
   },
 ];
-
-export const MemberMarqueeImages = {
-  bangchan: [],
-  leeknow: [
-    "/brands/gucci.png", "/brands/biore.png", "/brands/pepero.png", "/brands/tommy.png"
-  ],
-  changbin: [],
-  hyunjin: [],
-  felix: [],
-  han: [],
-  seungmin: [],
-  in: [],
-}
