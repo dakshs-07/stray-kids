@@ -5,55 +5,55 @@
   "image": "/quiz/han.jpg",
   "questions": [
     {
-      "question": "Cooking like a chef I'ma 5 star Michelin",
-      "options": ["Do It", "SuperBowl", "Red Lights", "God's Menu"],
+      "question": "I am on a Hellevator... my hellevator",
+      "options": ["Do It", "Item", "Hellevator", "Phobia"],
+      "answer": 2
+    },
+    {
+      "question": "Blue Cheese\nParmesan Cheese\nCheddar Cheese...",
+      "options": ["District9", "3RACHA", "Unfair", "Cheese"],
       "answer": 3
     },
     {
-      "question": "I love what you hate...",
-      "options": ["Holiday", "JJAM", "Cheese", "Maniac"],
-      "answer": 2
+      "question": "Domino Domino Domino Domino Domino",
+      "options": ["So Good", "Domino", "Photobook", "Ultra"],
+      "answer": 1
     },
     {
-      "question": "I just wanna talk about fantasy \nLet's escape from reality",
-      "options": ["So Good", "Megaverse", "Photobook", "Connected"],
-      "answer": 0
-    },
-    {
-      "question": "Ride like the motion of the ocean, high tide in the moonlight",
-      "options": ["Hallucination", "Do It", "Drive", "Railway"],
-      "answer": 2
-    },
-    {
-      "question": "Let me show you how we play, it's not a game bruh",
-      "options": ["CEREMONY", "LALALALA", "Divine", "Chk Chk Boom"],
-      "answer": 2
-    },
-    {
-      "question": "I am up above the world so high, I'll be there shining day and night...",
-      "options": ["S-Class", "God's Menu", "MANIAC", "CASE 143"],
-      "answer": 0
-    },
-    {
-      "question": "Un, Deux, Trois, Run along with the Gods...",
-      "options": ["Back Door", "Divine", "MEGAVERSE", "Endless Sun"],
-      "answer": 2
-    },
-    {
-      "question": "You can call me Harry Potter...",
-      "options": ["I Like It", "Hollow", "JJAM", "Walkin on Water"],
+      "question": "Mountains, Mountains, I woke up on the mountains...",
+      "options": ["I Like It", "Walkin on Water", "Chk Chk Boom", "Mountains"],
       "answer": 3
     },
     {
-      "question": "Gave up my youth \nFor my future\nI just want to\nRise up stronger",
+      "question": "Life is so good\nLife is so good\nWorld is on my side...",
+      "options": ["So Good", "Unfair", "Hold My Hand", "CASE 143"],
+      "answer": 0
+    },
+    {
+      "question": "Ah I lose my breath when you're walking in..",
+      "options": ["Truman", "Thunderous", "Lose My Breath", "God's Menu"],
+      "answer": 2
+    },
+    {
+      "question": "I keeo my creed in my heart... coz holding onto it won't work at all yeah",
+      "options": ["Red Lights", "Photobook", "Creed", "Endless Sun"],
+      "answer": 2
+    },
+    {
+      "question": "Girl you're my hallucination",
+      "options": ["Hallucination", "Lose My Breath", "CASE 143", "I Like It"],
+      "answer": 0
+    },
+    {
+      "question": "Come with me let's escape now...",
       "options": [
-       "Side Effects", "Social Path", "Do It", "Thunderous"
+       "Social Path", "Escape", "Hollow", "Thunderous"
       ],
       "answer": 1
     },
     {
-      "question": "Nothing much, I confess\n All the stars in my eyes\nMake my Galaxy",
-      "options": ["3RACHA", "FREEZE", "Hall of Fame", "Item"],
+      "question": "Yeah this train never sleeps...brace yourself take a seat",
+      "options": ["Hall of Fame", "Topline", "Truman", "Railway"],
       "answer": 3
     }
   ]
