@@ -4,11 +4,12 @@ import { HyunjinData } from "../../../../data/Table";
 import FunFacts from "../../../components/Member/FunFacts";
 import { HyunjinFacts } from "../../../../data/FunFacts";
 import EraCarousel from "../../../components/Member/EraCarousel";
+import { LeeknowEras } from "data/erasData";
 function page() {
   return (
     <div className="max-w-4xl mx-auto px-6 my-5">
       <section id="eras">
-        <EraCarousel slides={HyunjinEras} memberName="Hyunjin" />
+        <EraCarousel slides={LeeknowEras} memberName="Hyunjin" />
       </section>
       <div className="flex justify-around items-start">
         <section id="profile">

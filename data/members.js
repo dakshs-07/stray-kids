@@ -96,7 +96,8 @@ const Banners = [
   "/main/banner4.webp",
 ];
 const LeeKnowBanners = [
-  "/banners/leeknow/leeknow1.jpg",
+  "/banners/leeknow/leeknow-banner1.jpg",
+  "/banners/leeknow/leeknow-banner2.jpg",
   "/banners/leeknow/leeknow2.jpg",
 ];
 
